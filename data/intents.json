@@ -1,0 +1,81 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey", "Sasa", "Habari", "Yo", "Hujambo",
+        "Good morning", "Good afternoon", "Hey there"
+      ],
+      "responses": [
+        "Hello 😊 Welcome to our restaurant!",
+        "Habari! Karibu kwenye restaurant yetu 😄",
+        "Hey! Karibu, how can I help you today?"
+      ]
+    },
+    {
+      "tag": "menu_food",
+      "patterns": [
+        "Show me the menu", "Menu please", "What food do you have",
+        "Menyu iko wapi?", "Nipe chakula", "Nataka kuona menyu",
+        "Nipe ugali", "Do you have pilau?", "What meals are available?"
+      ],
+      "responses": [
+        "Our menu 🍽️ includes Pilau, Chicken Fry, Beef Stew, Chapati, Fries.",
+        "Hii ndiyo menyu yetu 🍽️: Pilau, Kuku Fry, Beef Stew, Chapati, Chips."
+      ]
+    },
+    {
+      "tag": "menu_drinks",
+      "patterns": [
+        "Drinks", "What drinks do you have?", "Can I get juice?",
+        "Nipe juice", "Do you serve soda?", "Maji ya matunda?"
+      ],
+      "responses": [
+        "We have fresh juices, soda, tea, and coffee ☕🥤",
+        "Tuna juices fresh, soda, chai, na kahawa ☕🥤"
+      ]
+    },
+    {
+      "tag": "menu_desserts",
+      "patterns": [
+        "Desserts", "Any sweets?", "Do you have cake?", "Keki ipo?",
+        "Nipe ice cream", "What desserts are available?"
+      ],
+      "responses": [
+        "We have ice cream, cake, and pastries 🍰🍦",
+        "Tuna ice cream, keki, na pastries 🍰🍦"
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "What time do you open", "Opening hours", "When do you close",
+        "Mnafungua saa ngapi?", "Mnafunga saa ngapi?", "Working hours"
+      ],
+      "responses": [
+        "We are open daily from 8:00 AM to 10:00 PM ⏰",
+        "Tuna fungua kila siku kuanzia 8:00AM hadi 10:00PM ⏰"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where are you located", "Your location", "Directions",
+        "Mko wapi?", "Nipe location", "How do I get there?"
+      ],
+      "responses": [
+        "We are located along Moi Avenue, Nairobi 📍",
+        "Tuko Moi Avenue, Nairobi 📍"
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "Sorry 😅 I didn’t understand that. Please try again.",
+        "Samahani 😅 Sijakuelewa. Tafadhali jaribu tena.",
+        "Hmm 🤔 I’m not sure about that. Maybe check the menu?"
+      ]
+    }
+  ]
+}
